@@ -139,3 +139,46 @@
         border-radius: 15px;
         padding: 5px 10px;
     }
+    /* responsive layout */
+    
+    @media only screen and (max-width:576px) {
+        .header {
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo h2 {
+            font-size: 18px;
+        }
+        .logo img {
+            height: 30px;
+        }
+        .nav-bar a {
+            font-size: 12px;
+        }
+        .nav-bar a img {
+            height: 35px;
+        }
+        .container {
+            width: 100%;
+        }
+        .players {
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: center;
+        }
+        .top-players {
+            padding-left: 30px;
+        }
+        .player {
+            display: block;
+        }
+        .top-blogs {
+            padding-left: 20px;
+        }
+        .blogs {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .course-detail {
+            display: block;
+        }
+    }
